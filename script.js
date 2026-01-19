@@ -45,3 +45,8 @@ const reduceNumbers = [1,2,3,4,5,6,7,8,9];
 const sum = reduceNumbers.reduce((acc, elem)=>{return acc + elem}, 0)
 
 console.log(sum)
+
+const words = ['Привет', 'мир', '!'];
+
+const sentence = words.reduce((acc, elem)=>{return acc + ' ' + elem}, '')
+console.log(sentence)
