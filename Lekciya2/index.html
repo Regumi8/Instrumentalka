@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Вулкан Эйяфьядрайёкюдль</h1>
+    <form id="form">
+        <label for="">Имя:</label>
+        <!-- Атрибут NAME - это название для данных, которые мы прочитаем -->
+        <input name="name" type="text" placeholder="Введите имя">
+
+        <label for="">Возраст:</label>
+        <input name="age" type="number" placeholder="Укажите возраст">
+
+        <label for="">Пол:</label>
+        <input name="sex" value="male" type="radio"> <label for="">Мужской</label>
+        <input name="sex" value="female" type="radio"> <label for="">Женский</label>
+
+        <button type="submit">Отправить</button>
+        <!-- submit - кнопка для отправки данных формы -->
+        <button type="reset">Очистить</button>
+    </form>
+    <!-- Для всех input задаем name, для радиокнопок и чекбоксов задаем value -->
+    <script src="script.js"></script>
+</body>
+</html>
